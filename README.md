@@ -1,9 +1,10 @@
 # PhotoSyntheSit
-
-#Description
 This was my PRJ666 capstone project.
-My groupmates were
+
+My groupmates were:
+
 https://github.com/ijacobs-cpa
+
 https://github.com/mismathh
 
 ## Usage
