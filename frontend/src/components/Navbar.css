@@ -1,0 +1,53 @@
+.navbar {
+  color: black;
+  font-size: 20px;
+  /* margin: 0px 25px; */
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.navbar-left {
+  margin-right: 275px;
+}
+
+.navbar-left a{
+  margin-left: 50px;
+}
+
+.navbar-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-right {
+  margin-left: 450px;
+}
+
+.nav-buttons {
+  margin: 0px 10px;
+  padding: 4px 20px; 
+  font-size: 20px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-cart {
+  margin-left: 50px;
+  padding: 2px;
+  justify-content: end;
+}
+
+.nav-cart:hover {
+  border: 1px solid black ;
+}
+
+.nav-user {
+  justify-content: flex-end;  
+}
+
+.nav-filler {
+  margin-left: 100px;
+}

@@ -1,0 +1,22 @@
+.shopping-cart h1{
+    
+}
+
+.shopping-cart-items {
+    border: 1px solid black;
+    padding-bottom: 25px;
+}
+
+.shopping-cart-sum {
+    border: 1px solid black;
+}
+
+.cart-cards {
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.cart-cards .booking-price {
+    font-size: 20px;
+    /* font-weight: bold; */
+}

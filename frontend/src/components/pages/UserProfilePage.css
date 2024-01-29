@@ -1,0 +1,136 @@
+.profile-section {
+  background-color: #F2F2F2;
+  /* Other styles as needed */
+  display: flex;
+  width: 80%;
+  margin: 20px;
+}
+
+.profile-categories {
+  background-color: #C4C4C4; /* Dark grey background */
+  /* Other styles as needed */
+  flex: 1;
+  margin: 40px;
+  padding: 20px 0px 20px 0px;
+  position: relative;
+  left: -70px; /* Adjust this value to control the amount of overlap */
+  z-index: 1;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  right: -60px;
+  margin: 20px;
+  z-index: 2;
+}
+
+.profile-pi {
+  flex: 2;
+}
+
+.categories {
+  padding: 10px;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+body {
+  display: flex;
+  align-items: center; /* This will center children vertically */
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.details-title {
+  margin: 40px 0px 15px 0px;
+}
+
+.delete-account-btn, .edit-pi-btn {
+  background-color: green;
+  color: white; /* Make the text color white for better contrast */
+  /* Other styles as needed */
+}
+
+.confirm-delete-btn {
+  background-color: red;
+  color: white; /* Make the text color white for better contrast */
+  /* Other styles as needed */
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  margin: 20px;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.post {
+  margin: 20px;
+  padding: 20px;
+}
+
+.post-list, .order-list {
+  margin: 20px;
+}
+
+.delete-post-btn, .delete-order-btn {
+  background-color: red;
+  color: white; /* Make the text color white for better contrast */
+  /* Other styles as needed */
+  padding: 5px 10px; /* Adjust as needed */
+  margin: 0px 0px 0px 30px; /* Adjust as needed */
+  font-size: 12px; /* Adjust as needed */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.categories:hover h5 {
+  color: #228B22;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+td {
+  padding: 0 40px 15px 0;
+  font-size: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+button {
+  margin: 15px 15px 0 0;
+}
+
+.post.even {
+  background-color: lightgray; /* Light grey */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

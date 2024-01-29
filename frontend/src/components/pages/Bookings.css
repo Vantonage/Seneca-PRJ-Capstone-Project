@@ -1,0 +1,46 @@
+/* Bookings.css */
+.parent-container-bookings {
+    display: flex;
+    max-width: 1800px;
+    min-height: 1500px;
+    margin: 0 auto;
+  }
+  
+  .left-container-bookings {
+    flex: 1;
+  }
+
+  .left-container-bookings .card{
+    margin-bottom: 10px;
+    border-style: dotted;
+  }
+  
+  .right-container-bookings {
+    flex: 4;
+    background-color: #f2f2f2;
+  }
+  
+  .card-container-bookings {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+
+  .card-text-bookings{
+    margin: 10px;
+  }
+  
+  .col-md-6 {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  .hire-button {
+    margin: 10px;
+  }
+  .message-button {
+    margin: 10px;
+  }
+
+
+  

@@ -1,0 +1,50 @@
+.detailed-listing-area button {
+    margin-bottom: 20px;
+}
+
+.crud-btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.detailed-listing-area {
+    display: flex;
+    flex-direction: column;
+}
+.detailed-side-area {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.detailed-side-area p {
+    font-size: 20px;
+}
+
+.detailed-side-info {
+    border: 3px solid black;
+    margin-bottom: 100px;
+}
+
+.detailed-side-area .side-price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.detail-listing h1 {
+    font-size: 60px;
+    /* border: 3px solid black; */
+
+}
+
+.detailed-listing-area img {
+
+}
+
+.detail-listing {
+    display: flex;
+}

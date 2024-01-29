@@ -1,0 +1,40 @@
+.calender {
+    padding: 20px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+
+.dateRange {
+    padding: 20px;
+
+}
+
+.hireUser {
+    background: #d9d9d9;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.hireLabels {
+    margin-left: 50px;
+}
+
+.hireUserProperties p{
+    margin-left: 20px;
+    text-align: left; 
+}
+
+.text-center {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    left: -150px;
+    top: -30px;
+    margin: 20px;
+    z-index: 2;
+}

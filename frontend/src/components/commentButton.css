@@ -1,0 +1,34 @@
+.comment-box {
+    display: flex;
+    flex-direction: column;
+    background: #f0f0f0;
+    margin: 20px 20px 20px 20px;
+    align-items: start;
+  }
+  
+  .comment-box .comment-name {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold; 
+    font-size: 20px;
+  }
+  
+  .comment-box .comment-text {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .name {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold; 
+    font-size: 20px;
+  }
+
+  .comment-box-container {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+
+  

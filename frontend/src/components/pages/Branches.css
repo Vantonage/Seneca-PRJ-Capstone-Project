@@ -1,0 +1,158 @@
+/* Branches.css */
+
+.parent-container-branches {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 1800px;
+  min-height: 1500px;
+  margin: 0 auto;
+
+}
+
+.left-container-branches {
+  flex: 1;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.left-container-branches .card {
+  padding-bottom: 10px;
+}
+
+.left-container-branches p {
+  font-size: 18px;
+}
+
+.middle-container-branches {
+  flex: 2;
+  background-color: #f2f2f2;
+}
+
+.right-container-branches {
+  flex-direction: column;
+  flex: 1;
+  background-color: #f2f2f2;
+}
+
+.right-container-branches-top {
+  flex: 1;
+  margin: 40px;
+  background-color: #cecece;
+}
+
+.right-container-branches-bottom {
+  flex: 1;
+  flex-direction: column;
+}
+
+
+.right-container-branches .card {
+  padding-bottom: 10px;
+}
+
+
+.card-container-branches {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card-body {
+  display: flex;
+}
+
+.branches-profile-photo {
+  margin: 20px;
+}
+
+.image-container-branches {
+  flex: 1;
+}
+
+.text-container-branches {
+  flex: 2;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.text-container-branches p {
+  font-size: 16px;
+  max-width: 500px;
+}
+
+.branches-bio-profile {
+  flex: 1;
+}
+
+.branches-bio-description {
+  flex: 1;
+  margin: 20px;
+}
+
+.hire-button,
+.message-button {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.comment-link {
+  border: none;
+  margin: 5px;
+}
+
+.share-link {
+  border: none;
+  margin: 5px;
+}
+
+.create-post {
+  margin: 20px;
+  width: 150px;
+  height: 50px;
+}
+
+.branchesPhoto {
+  margin: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  background-color: white;
+
+}
+
+.pagination li {
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.branches-pagination .pagination a {
+  padding: 5px 10px;
+  border: 1px solid #cdd0d3;
+  border-radius: 4px;
+}
+
+.pagination a:hover {
+  background-color: #e2dede;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.comment-share {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+}
+
+.comment-share p {
+  margin: 0 10px; 
+}

@@ -1,0 +1,57 @@
+.detail-posting {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+
+.crud-btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.post-box{
+  display: flex;
+  background: #e7e7e7;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.post-box-left{
+  margin-right: 50px;
+}
+
+.post-box-image{
+  padding-left: 20px;
+  
+}
+
+.post-box-name{
+  padding-right: 150px;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.post-box-description p{
+  font-size: 25px;
+  padding-top: 50px;
+  text-align: left;
+  max-width: 550px;
+
+  white-space: normal;
+  word-wrap: break-word; /* added for additional word wrap support */
+}
+
+.postDetailTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postDetailTitle h1{
+  max-width: 700px;
+  white-space: normal;
+  word-wrap: break-word; /* added for additional word wrap support */
+}

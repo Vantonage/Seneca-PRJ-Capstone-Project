@@ -1,0 +1,25 @@
+.comment-section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.addCommentBox {
+    width: 1000px;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.textAreaCommentBox textarea {
+    background: #d9d9d9;
+}
+
+.textAreaCommentBox {
+    text-align: right;
+    margin-right: 50px;
+    
+}
+
+.commentButton {
+    text-align: right;
+    margin-right: 35px;
+}
